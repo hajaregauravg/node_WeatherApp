@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        helpText: 'This is the help message to be displayed.',
+        helpText: 'Contact us or mail us at our Email: help@weather.com',
         name: 'Gaurav'
     })
 })
